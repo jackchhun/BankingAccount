@@ -112,6 +112,13 @@ Example history call :
 POST http://localhost:8080/mybank/account/23451238002/makedeposit
 ```
 
+Header to add to service call :
+
+| Key | Value |
+| --- | --- |
+| Content-Type | application/json |
+| Accept | application/json |
+
 Example body :
 
 ```
@@ -146,7 +153,9 @@ Example history call :
 POST http://localhost:8080/mybank/account/23451238002/makedeposit
 ```
 
-| Command | Description |
+Header to add to service call :
+
+| Key | Value |
 | --- | --- |
 | Content-Type | application/json |
 | Accept | application/json |
